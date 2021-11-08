@@ -9,9 +9,9 @@ const tasks = [
   function ToDoList () {
       return (
         <ul className="list-group">
-            {tasks.map((task) => {
+            {tasks.map((task, index) => {
             return (
-            <li key={task} className="list-group-item">
+            <li key={index} className="list-group-item">
                   <input className="form-check-input me-1" type="checkbox" value="" aria-label="..."/>
                     {task}
             </li>
