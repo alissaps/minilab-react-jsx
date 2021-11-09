@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="container mt-5 mb-5 col-6">
       <small>Interpolação de variáveis</small>
-      <Greeting></Greeting>
+      <Greeting/>
       <small>Imagens</small>
       <hr />
       <Profile></Profile>
@@ -19,7 +19,7 @@ function App() {
       <ToDoList></ToDoList>
       <small>Renderização condicional</small>
       <hr />
-      <EmotionMeter></EmotionMeter>
+      <EmotionMeter/>
     </div>
   );
 }
